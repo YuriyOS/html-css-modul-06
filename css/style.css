@@ -23,6 +23,7 @@
 .header-inner {
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
    
 }
 
@@ -53,14 +54,21 @@
     transition: 200ms linear;
 }
 
-.nav-link:hover::after {
-    display: flex;
+.nav-link::after {
     content: "";
+    opacity: 0;
     position: absolute;
+    left: 0px;
+    bottom: -12px;
     margin-top: 12px;
     width: 100%;
     height: 3px;
     background-color: #f38181;
+    transition: 200ms linear;
+}
+
+.nav-link:hover::after {
+    opacity: 1;
 }
 
 
