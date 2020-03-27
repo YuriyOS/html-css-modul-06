@@ -219,7 +219,7 @@ Title for Article "Work With" and Article "Who We Are" */
     margin-bottom: 30px;
 }
 
-.dix-overlay {
+.overlay {
     opacity: 0; 
     display: flex;
     justify-content: center;
@@ -230,44 +230,23 @@ Title for Article "Work With" and Article "Who We Are" */
     top: 0px;
     transform: translate(-10px, -10px);
     box-shadow: 10px 10px #95e1d3;
-    background: url('../img/Mathew_Dix_ Hover.png');
+    
     transition: 200ms linear;
+
+    background-image: -moz-linear-gradient( 90deg, rgba(252,227,138, 0.8) 0%, rgba(243,129,129, 0.8) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(252,227,138, 0.8) 0%, rgb(243,129,129, 0.8) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgba(252,227,138, 0.8) 0%, rgba(243,129,129, 0.8) 100%);
+
+
 }
 
-.campbell-overlay {
-    opacity: 0; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 380px;
-    height: 470px;
-    position: absolute;
-    top: 0px;
-    transform: translate(-10px, -10px);
-    box-shadow: 10px 10px #95e1d3;
-    background: url('../img/Mathew_Dix_ Hover.png');
-    transition: 200ms linear;
-}
 
-.fertig-overlay {
-    opacity: 0; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 380px;
-    height: 470px;
-    position: absolute;
-    top: 0px;
-    transform: translate(-10px, -10px);
-    box-shadow: 10px 10px #95e1d3;
-    background: url('../img/Mathew_Dix_ Hover.png');
-    transition: 200ms linear;
-}
-
-.img-wrap:hover .dix-overlay,
-.img-wrap:hover .campbell-overlay,
-.img-wrap:hover .fertig-overlay {
+.img-wrap:hover .overlay {
     opacity: 1;
+}
+
+.img-wrap:hover .member-photo {
+    transform: translate(-10px, -10px);
 }
 
 /* Social Icons
@@ -412,5 +391,6 @@ Title for Article "Work With" and Article "Who We Are" */
     background-color: rgb(149, 225, 211);
 }
 
-  
+
+    
   
