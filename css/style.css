@@ -157,27 +157,27 @@ Title for Article "Work With" and Article "Who We Are" */
 }
 
 .alarm-ico::before {
-    background: url(/img/icon/ALARM.png);
+    background: url(../img/icon/ALARM.png);
 }
 
 .line-ico::before {
-    background: url(/img/icon/LINE_GRAPH.png);
+    background: url(../img/icon/LINE_GRAPH.png);
 }
 
 .computer-ico::before {
-    background: url(/img/icon/COMPUTER_OK.png);
+    background: url(../img/icon/COMPUTER_OK.png);
 }
 
 .book-ico::before {
-    background: url(/img/icon/BOOK_2.png);
+    background: url(../img/icon/BOOK_2.png);
 }
 
 .home-ico::before {
-    background: url(/img/icon/HOME.png);
+    background: url(../img/icon/HOME.png);
 }
 
 .image-ico::before {
-    background: url(/img/icon/IMAGE.png);
+    background: url(../img/icon/IMAGE.png);
 }
 
 .title {
